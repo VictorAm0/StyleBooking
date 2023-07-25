@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 6</title>
+    <meta name="author" content="Thiago"> <!-- Nome do autor -->
+    <meta name="description" content="componentes eletronicos e suporte"> <!-- o que encontra no site -->
+    <meta name="keywords" content="desenvolvimento, sites">
+    <link rel="stylesheet" href="ESTILO.css">
+    <link rel="stylesheet" href="https://api.whatsapp.com/send?phone=&text=">    <a href="https://wa.me/5519983809202?text=Adorei%20seu%20artigo"style="position:fixed;width:60px;height:60px;bottom:30px;right:40px; background-color:#34b804; color:#000000;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #300000;
+    z-index:1000;" target="_blank"> 
+
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Georgia, sans-serif;
+    box-sizing: border-box;
+}
+
+/* COLOCANDO MENU NA HORIZONTAL COM CSS */
+#menu-h {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+}
+
+#menu-h ul {
+    max-width: 80%;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .8s;
+}
+
+
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: #7f0f0f;
+}
+
+#menu-h ul li a:hover {
+    background-color: #737373;
+}
+
+.text_banner{
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: #000000;
+    font-size: 200%;
+    border: 10px solid black;
+    border-radius: 100%;
+}
+
+.banner{
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body, html {
+    height: 100%;
+}
+
+.column{/* css para as imagens pequenas */
+    float: left;
+    width: 45%;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.column img{
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+
+
+    </style>
+
+</head>
+
+<body>
+    <!-- Menu Horizontal -->
+     
+    <header class="header"> <!-- header o cabeçalho da pagina -->
+
+        <nav id="menu-h">
+          <a href="index.html" style="font-family: Arial, Helvetica, sans-serif;">Home |</a>
+          <a href="agenda.html"  style="font-family: Arial, Helvetica, sans-serif;">Agenda |</a>
+          <a href="produtos.html"  style="font-family: Arial, Helvetica, sans-serif;">Produto |</a>
+          <a href="galeria.html"  style="font-family: Arial, Helvetica, sans-serif;">Galeria |</a> 
+          <a href="contato.html"  style="font-family: Arial, Helvetica, sans-serif;">Contato |</a>
+          <a href="sobre.html"  style="font-family: Arial, Helvetica, sans-serif;">Sobre </a>
+  </nav>
+    </header>
+    <!-- FIM DO MENU -->
+    <div class="banner"> <!-- INICIO DO BANNER -->
+        <div class="text_banner">
+            <h1>Grupo Sereno</h1>
+            <p>Hotelaria de qualidade</p>
+        </div>
+    </div><!-- FIM DO BANNER -->
+    <!-- IMAGENS DOS PRODUTOS INICIO-->
+    <!-- abrindo div principal -->
+    <div class="row" id="produtos">
+        <div class="column">
+            <label for="img1">Creme de barbear</label>
+            <img src="img/barbearia1.jpg" alt="produto demonstrativo" style="width: 100%;">
+            <p>R$</p>
+        </div>
+        <!-- Fechando a classe principal -->
+
+        <div class="row" id="produtos">
+            <div class="column">
+                <label for="img1">Produto 2</label>
+                <img src="img/barbearia2.jpg" alt="produto demonstrativo" style="width: 100%;">
+                <p>Descrição do Produto</p>
+            </div>
+        </div>
+
+        <div class="row" id="produtos">
+            <div class="column">
+                <label for="img1">Produto 3</label>
+                <img src="img/barbearia4.jpg" alt="produto demonstrativo" style="width: 100%;">
+                <p>Descrição do Produto</p>
+            </div>
+        </div>
+
+        <div class="row" id="produtos">
+            <div class="column">
+                <label for="img1">Produto 4</label>
+                <img src="img/barbearia3.jpg" alt="produto demonstrativo" style="width: 100%;">
+                <p>Descrição do Produto</p>
+            </div>
+        </div>
+        <!-- FECHANDO A DIV PRINCIPAL -->
+
+        <div class="banner"> <!-- INICIO DO BANNER -->
+            <div class="text_banner">
+                <h1>Grupo Sereno</h1>
+                <p>Hotelaria de qualidade</p>
+            </div>
+        </div><!-- FIM DO BANNER -->
+        <!-- IMAGENS DOS PRODUTOS INICIO-->
+        <div class="row">
+            <div class="column">
+                <label for="img1">Produto 5</label>
+                <img src="img/barbearia5.jpg" alt="produto demonstrativo" style="width: 100%;">
+                <p>Descrição do Produto</p>
+            </div>
+
+
+            <div class="row">
+                <div class="column">
+                    <label for="img1">Produto 6</label>
+                    <img src="img/barbearia6.jpg" alt="produto demonstrativo" style="width: 100%;">
+                    <p>Descrição do Produto</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <label for="img1">Produto 7</label>
+                    <img src="img/barbearia7.jpg" alt="produto demonstrativo" style="width: 100%;">
+                    <p>Descrição do Produto</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <label for="img1">Produto 8</label>
+                    <img src="img/barbearia8.jpg" alt="produto demonstrativo" style="width: 100%;">
+                    <p>Descrição do Produto</p>
+                </div>
+            </div><!-- FECHANDIO A DIV PRINCIPAL -->
+
+            <div class="row"><!-- INICIANDO A DIV PRINCIPAL -->
+                <div class="column">
+                    <label for="img1">Produto 9</label>
+                    <img src="img/produto.jpg" alt="produto demonstrativo" style="width: 100%;">
+                    <p>Descrição do Produto</p>
+                </div>
+
+
+                <div class="row">
+                    <div class="column">
+                        <label for="img1">Produto 10</label>
+                        <img src="img/produto.jpg" alt="produto demonstrativo" style="width: 100%;">
+                        <p>Descrição do Produto</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <label for="img1">Produto 11</label>
+                        <img src="img/produto.jpg" alt="produto demonstrativo" style="width: 100%;">
+                        <p>Descrição do Produto</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <label for="img1">Produto 12</label>
+                        <img src="img/produto.jpg" alt="produto demonstrativo" style="width: 100%;">
+                        <p>Descrição do Produto</p>
+                    </div>
+                </div>
+
+             

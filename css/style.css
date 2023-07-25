@@ -148,5 +148,21 @@ body{
       width: 30px;
       }
       
-      
+  
+      .principal{
+        background-color: white;
+      }
+      .column{
+        width: 25%;
+        padding: 100px 100px;
+        text-align: center;
+        
+        
+      }
+
+      .column img{
+        width: 100px;
+        border: 2px solid #7351ee;
+        border-radius:5%;
+        padding: 1px}
       
