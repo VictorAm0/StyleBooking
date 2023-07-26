@@ -63,6 +63,7 @@ body{
 .row{
   display: flex;
   margin-bottom: 100px ;
+  padding-bottom: 150px;
 }
 
 .flip-card {
@@ -175,7 +176,7 @@ body{
         align-items: center;
         margin: 5px;
         padding: 20px;
-        padding-bottom: 320px;
-
+        padding-bottom: 250px;
       }
-   
+      /* CSS imagem */
+
