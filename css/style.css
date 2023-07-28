@@ -166,12 +166,17 @@ body{
         border: 2px solid #7351ee;
         border-radius:5%;
         padding: 1px}
+
+
         .letreiro{
           width: auto;
           height: 300px;
          position: absolute;
-         top: 190px;
+         top: 220px;
+         right: 2px;
         }
+
+
       .sobre{
         align-items: center;
         margin: 5px;
@@ -180,3 +185,45 @@ body{
       }
       /* CSS imagem */
 
+      .flips{
+        background-color: whitesmoke;
+        border-radius: 10px; 
+        padding-top: 75px;
+        margin-top: 10px;
+        
+      }
+
+      .flips img{
+        border-radius: 15px;
+
+
+      }
+
+      .galer{
+        padding-bottom: 60px;
+
+      }
+
+      .galer img{
+     
+      width: 300px;
+      height: 300px;
+      margin: 30px 25px 25px 30px;
+      border-radius: 5px;
+      border: solid black;
+
+    
+    }
+
+    .contato{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #pc{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+#email{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
