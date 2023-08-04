@@ -64,6 +64,7 @@ body{
   display: flex;
   margin-bottom: 100px ;
   padding-bottom: 150px;
+  
 }
 
 .flip-card {
@@ -74,6 +75,8 @@ body{
   float: left;
   margin: 25px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    position: relative;
+    right: 4em;
 }
 
 /* This container is needed to position the front and back side */
@@ -155,6 +158,7 @@ body{
   
       .principal{
         background-color: white;
+        padding: 30px;
       }
       .column{
         width: 18%;
@@ -176,7 +180,8 @@ body{
           height: 300px;
          position: absolute;
          top: 220px;
-         right: 2px;
+         right: 0;
+         float: right;
         }
 
 
@@ -214,7 +219,7 @@ body{
       margin: 30px 25px 25px 30px;
       border-radius: 5px;
       border: solid black;
-    
+
     }
 
     .contato{
@@ -235,6 +240,8 @@ body{
 }
 
 
+
+
 .card img{
   width: 150px;
   height: 150px;
@@ -251,3 +258,49 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.galer div{
+  display: inline;
+}
+
+  .card1 {
+    
+    background-color: yellow;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card1 h2 {
+      font-family: helvetica;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card1 p {
+      font-family: helvetica;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .card1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .card1 button{
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      background-color: blue;
+      color: white;
+  }
+
