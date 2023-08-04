@@ -11,9 +11,16 @@ body{
     position:relative;
 }
 
+.red{
+color:red ;
+}
+.blue{
+  color: blue;
+}
+
 .titulo_principal{
 
-background-image: linear-gradient(to right, #fff, #0000ff, #ff0000);
+background-color: black);
 color: #ffffff;
 font-size: 32px;
 font-family: 'Bebas Neue', sans-serif;
@@ -21,6 +28,8 @@ height: 4em;
 display: flex;
 align-items: center;
 justify-content: center;  
+font-family: Arial, Helvetica, sans-serif; 
+color: white;
 }
 
 .links_principais{
@@ -166,19 +175,19 @@ transform: rotateY(180deg);
     border-radius:5%;
     padding: 1px}
   .banner{
-    background-image:url("/img/Principal_Leonardo.png");
+    
     background-repeat: no-repeat;
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
     color: #fff;
-  padding-bottom: 675px
+  padding-bottom: 725px;
+  background-color: aliceblue;"
 
   }
   .itu{
-    position: absolute;
-    left: 45%;
+   text-align: center;
   }
 
   /* CSS do banner */
